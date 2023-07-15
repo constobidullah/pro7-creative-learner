@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    padding: 0 40px;
+    background-color: rgb(244, 247, 250);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-title a{
+    text-decoration: none;
+    color: rgb(127, 127, 255);
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+#header-link a{
+    text-decoration: none;
+    padding: 0 10px;
+    color: rgb(133, 128, 128);
+}
+
+#login-item a{
+    text-decoration: none;
+    padding: 0 10px;
+    color: gray;
+}
