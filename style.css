@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    background-color: rgb(244, 247, 250);
 }
 
 nav{
@@ -41,8 +42,7 @@ nav{
 /* header main page style start here */
 
 header{
-    background-color: rgb(244, 247, 250);
-    height: 80vh;
+    height: 70vh;
     padding: 20px 60px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -85,4 +85,19 @@ header{
     object-fit: contain;
     width: 100%;
     height: auto;
+}
+
+#awesome-feature{
+    text-align: center;
+    padding: 0 50px;
+}
+
+#feature-text h1{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#feature-text p{
+    font-size: .9rem;
+    color: gray;
 }
