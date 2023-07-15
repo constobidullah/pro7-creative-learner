@@ -35,3 +35,54 @@ nav{
     padding: 0 10px;
     color: gray;
 }
+
+/* Navbar style end here */
+
+/* header main page style start here */
+
+header{
+    background-color: rgb(244, 247, 250);
+    height: 80vh;
+    padding: 20px 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 30px;
+}
+
+#header-page-title{
+    width: 100%;
+}
+
+#header-page-title h1{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+
+#header-page-title p{
+    font-size: 1.1rem;
+    color: rgb(167, 161, 161);
+    margin-bottom: 40px;
+}
+
+#header-subscribe-form input{
+    text-align: center;
+    padding: 10px;
+    background-color: #e8ebf8;
+    border-radius: 5px;
+    border: 0;
+}
+
+#header-subscribe-form input:nth-child(2){
+    background-color: rgb(115, 115, 243);
+    color: white;
+    font-weight: 900;
+    border: none;
+}
+
+#header-page-image img{
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+}
