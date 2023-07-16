@@ -112,6 +112,8 @@ header{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
+
+    margin-bottom: 100px;
 }
 
 #creativity-features-image img{
