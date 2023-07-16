@@ -7,6 +7,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     background-color: rgb(244, 247, 250);
+    position: relative;
 }
 
 nav{
@@ -16,6 +17,9 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    position: sticky;
+    top: 0;
 }
 
 #header-title a{
