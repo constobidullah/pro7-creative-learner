@@ -159,3 +159,63 @@ header{
     background-color: #dedbf8;
     color: #5a4fdc;
 }
+
+
+/* Choose your plan */
+
+#plan-container{
+    margin: 30px 70px 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+#plan-container .plan-item{
+    text-align: center;
+    background-color: #e8ebf8;
+    padding: 10px 30px 20px;
+    border-radius: 5px;
+}
+.plan-item p{
+    line-height: 40px;
+    color: gray;
+}
+
+.plan-money i{
+    padding: 15px;
+    /* font-size: 2rem; */
+    background-color: #5a4fdc;
+    color: white;
+    border-radius: 10px 10px 0 10px;
+    margin-bottom: 10px;
+}
+
+.plan-money i:nth-child(2){
+    border-radius: 0 10px 10px 10px;
+}
+
+.plan-money h2{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.plan-money h1{
+    font-size: 3rem;
+}
+
+.plan-money h1 span{
+    font-size: 1rem;
+}
+
+.plan-money p{
+    font-weight: bold;
+    color: gray;
+}
+
+.plan-benifit a{
+    text-decoration: none;
+    border: 2px solid #5a4fdc;
+    border-radius: 5px;
+    color: #5a4fdc;
+    padding: 5px 15px;
+}
