@@ -219,3 +219,38 @@ header{
     color: #5a4fdc;
     padding: 5px 15px;
 }
+
+#letest-news-container{
+    margin: 30px 70px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+.letest-image img{
+    width: 100%;
+    border-radius: 3px;
+}
+
+.admin-and-calender {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.calender{
+    display: flex;
+    gap: 20px;
+}
+.admin{
+    display: flex;
+    gap: 20px;
+}
+
+.learn-more-btn{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #5a4fdc;
+}
