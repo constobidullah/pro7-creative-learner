@@ -262,3 +262,54 @@ header{
 .learn-more-btn a{
     text-decoration: none;
 }
+
+#contact-us{
+    margin: 30px 70px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+
+#contact-form-item{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 30px;
+    margin-bottom: 30px;
+    color: gray;
+}
+
+#contact-form-item input{
+    padding: 10px 15px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    transition: outline 1s;
+}
+
+#contact-form-item input:focus{
+    outline: 2px solid #5a4fdc;
+}
+
+textarea{
+    padding: 5px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+
+textarea:focus{
+    outline: 1px solid #5a4fdc;
+}
+
+#send-message-btn{
+    background-color: #5a4fdc;
+    padding: 10px 20px;
+    border-radius: 3px;
+    color: white;
+}
+
+#send-message-btn input{
+    background-color: transparent;
+    color: white;
+    border: 0;
+    font-weight: 900;
+}
