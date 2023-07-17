@@ -1,16 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
     background-color: rgb(244, 247, 250);
     position: relative;
 }
 
-nav{
+nav {
     padding: 0 40px;
     background-color: rgb(244, 247, 250);
     height: 50px;
@@ -22,20 +22,20 @@ nav{
     top: 0;
 }
 
-#header-title a{
+#header-title a {
     text-decoration: none;
     color: rgb(127, 127, 255);
     font-size: 2rem;
     font-weight: 800;
 }
 
-#header-link a{
+#header-link a {
     text-decoration: none;
     padding: 0 10px;
     color: rgb(133, 128, 128);
 }
 
-#login-item a{
+#login-item a {
     text-decoration: none;
     padding: 0 10px;
     color: gray;
@@ -45,7 +45,7 @@ nav{
 
 /* header main page style start here */
 
-header{
+header {
     height: 70vh;
     padding: 20px 60px;
     display: grid;
@@ -54,23 +54,23 @@ header{
     gap: 30px;
 }
 
-#header-page-title{
+#header-page-title {
     width: 100%;
 }
 
-#header-page-title h1{
+#header-page-title h1 {
     font-size: 2.5rem;
     font-weight: bolder;
     margin-bottom: 40px;
 }
 
-#header-page-title p{
+#header-page-title p {
     font-size: 1.1rem;
     color: rgb(167, 161, 161);
     margin-bottom: 40px;
 }
 
-#header-subscribe-form input{
+#header-subscribe-form input {
     text-align: center;
     padding: 10px;
     background-color: #e8ebf8;
@@ -78,36 +78,36 @@ header{
     border: 0;
 }
 
-#header-subscribe-form input:nth-child(2){
+#header-subscribe-form input:nth-child(2) {
     background-color: rgb(115, 115, 243);
     color: white;
     font-weight: 900;
     border: none;
 }
 
-#header-page-image img{
+#header-page-image img {
     object-fit: contain;
     width: 100%;
     height: auto;
 }
 
-#awesome-feature{
+#awesome-feature {
     text-align: center;
     padding: 0 50px;
     margin-bottom: 50px;
 }
 
-#feature-text h1{
+#feature-text h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
 }
 
-#feature-text p{
+#feature-text p {
     font-size: .9rem;
     color: gray;
 }
 
-#creativity-features{
+#creativity-features {
     padding: 0 50px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -116,37 +116,37 @@ header{
     margin-bottom: 100px;
 }
 
-#creativity-features-image img{
+#creativity-features-image img {
     width: 100%;
     height: 100%;
 }
 
-#creativity-features-text{
+#creativity-features-text {
     width: 100%;
     height: 100%;
     padding-top: 80px;
 }
 
-#creativity-features-text h1{
+#creativity-features-text h1 {
     font-size: xx-large;
     margin-bottom: 20px;
 }
 
-#creativity-features-text h3{
+#creativity-features-text h3 {
     font-size: 1.7rem;
     margin-bottom: 20px;
 }
 
-#creativity-features-text p{
+#creativity-features-text p {
     font-size: .9rem;
     margin-bottom: 30px;
 }
 
-.creative-footer-text p{
+.creative-footer-text p {
     font-weight: bolder;
 }
 
-#creativity-btn a{
+#creativity-btn a {
     text-decoration: none;
     background-color: #5a4fdc;
     color: white;
@@ -155,7 +155,7 @@ header{
     border-radius: 3px;
 }
 
-#creativity-btn a:nth-child(2){
+#creativity-btn a:nth-child(2) {
     background-color: #dedbf8;
     color: #5a4fdc;
 }
@@ -163,25 +163,26 @@ header{
 
 /* Choose your plan */
 
-#plan-container{
+#plan-container {
     margin: 30px 70px 100px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
 
-#plan-container .plan-item{
+#plan-container .plan-item {
     text-align: center;
     background-color: #e8ebf8;
     padding: 10px 30px 20px;
     border-radius: 5px;
 }
-.plan-item p{
+
+.plan-item p {
     line-height: 40px;
     color: gray;
 }
 
-.plan-money i{
+.plan-money i {
     padding: 15px;
     /* font-size: 2rem; */
     background-color: #5a4fdc;
@@ -190,29 +191,29 @@ header{
     margin-bottom: 10px;
 }
 
-.plan-money i:nth-child(2){
+.plan-money i:nth-child(2) {
     border-radius: 0 10px 10px 10px;
 }
 
-.plan-money h2{
+.plan-money h2 {
     font-size: 2rem;
     margin-bottom: 10px;
 }
 
-.plan-money h1{
+.plan-money h1 {
     font-size: 3rem;
 }
 
-.plan-money h1 span{
+.plan-money h1 span {
     font-size: 1rem;
 }
 
-.plan-money p{
+.plan-money p {
     font-weight: bold;
     color: gray;
 }
 
-.plan-benifit a{
+.plan-benifit a {
     text-decoration: none;
     border: 2px solid #5a4fdc;
     border-radius: 5px;
@@ -220,14 +221,14 @@ header{
     padding: 5px 15px;
 }
 
-#letest-news-container{
+#letest-news-container {
     margin: 30px 70px;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
 
-.letest-image img{
+.letest-image img {
     width: 100%;
     border-radius: 3px;
 }
@@ -238,20 +239,21 @@ header{
     margin-bottom: 30px;
 }
 
-.calender{
-    display: flex;
-    gap: 20px;
-}
-.admin{
+.calender {
     display: flex;
     gap: 20px;
 }
 
-.letest-text h1{
+.admin {
+    display: flex;
+    gap: 20px;
+}
+
+.letest-text h1 {
     line-height: 60px;
 }
 
-.learn-more-btn{
+.learn-more-btn {
     margin-top: 50px;
     display: flex;
     align-items: center;
@@ -259,19 +261,19 @@ header{
     color: #5a4fdc;
 }
 
-.learn-more-btn a{
+.learn-more-btn a {
     text-decoration: none;
 }
 
-#contact-us{
-    margin: 30px 70px;
+#contact-us {
+    margin: 30px 70px 100px;
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
 }
 
-#contact-form-item{
+#contact-form-item {
     display: flex;
     /* justify-content: space-between; */
     gap: 30px;
@@ -279,42 +281,42 @@ header{
     color: gray;
 }
 
-#contact-form-item input{
+#contact-form-item input {
     padding: 10px 15px;
     border: 1px solid gray;
     border-radius: 3px;
     transition: outline 1s;
 }
 
-#contact-form-item input:focus{
+#contact-form-item input:focus {
     outline: 2px solid #5a4fdc;
 }
 
-textarea{
+textarea {
     padding: 5px;
     border-radius: 3px;
     margin-bottom: 30px;
 }
 
-textarea:focus{
+textarea:focus {
     outline: 1px solid #5a4fdc;
 }
 
-#send-message-btn{
+#send-message-btn {
     background-color: #5a4fdc;
     padding: 10px 20px;
     border-radius: 3px;
     color: white;
 }
 
-#send-message-btn input{
+#send-message-btn input {
     background-color: transparent;
     color: white;
     border: 0;
     font-weight: 900;
 }
 
-.contact-info{
+.contact-info {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -322,6 +324,39 @@ textarea:focus{
     color: gray;
 }
 
-.contact-info i{
+.contact-info i {
     font-size: 1.5rem;
+}
+
+footer {
+    background-color: #212529;
+    color: gray;
+    padding: 30px 60px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+#footer-name h2 {
+    color: #5445f5;
+    margin-bottom: 10px;
+}
+
+#footer-social-icon{
+    margin: 20px 0;
+}
+#footer-social-icon i {
+    font-size: 1.3rem;
+    padding: 0 10px;
+}
+
+.footer-link h4 {
+    color: white;
+}
+
+.footer-link a {
+    display: block;
+    text-decoration: none;
+    line-height: 30px;
+    color: rgb(156, 148, 148);
 }
