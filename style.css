@@ -247,10 +247,18 @@ header{
     gap: 20px;
 }
 
+.letest-text h1{
+    line-height: 60px;
+}
+
 .learn-more-btn{
     margin-top: 50px;
     display: flex;
     align-items: center;
     gap: 20px;
     color: #5a4fdc;
+}
+
+.learn-more-btn a{
+    text-decoration: none;
 }
