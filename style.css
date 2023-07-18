@@ -412,6 +412,91 @@ footer {
         overflow-x: hidden;
     }
 
+    #navbar-container {
+        background-color: white;
+        height: 50px;
+        position: sticky;
+        top: 0;
+    }
+
+    #navbar-container nav {
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        color: gray;
+    }
+
+    #toggle-container {
+        display: block;
+    }
+
+    #checkbox {
+        display: none;
+    }
+
+    #togglebar {
+        font-size: 1.5rem;
+        color: gray;
+        display: block;
+    }
+
+    #navbar-name h2 {
+        color: #5445f5;
+    }
+
+    #navbar-link {
+        width: 100%;
+        height: 100vh;
+        background-color: #fbfbff;
+        position: absolute;
+        top: 50px;
+        left: 100%;
+    }
+
+    #navbar-link ul {
+        display: block;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    #navbar-link ul li {
+        list-style-type: none;
+    }
+
+    #navbar-link ul li a {
+        text-decoration: none;
+        padding: 0 10px;
+        display: block;
+        /* color: gray; */
+        font-size: 1.5rem;
+        font-weight: lighter;
+        line-height: 50px;
+    }
+
+    #active {
+        color: #5445f5;
+    }
+
+    #login-register{
+        display: none;
+    }
+
+    #login-register a {
+        text-decoration: none;
+        padding: 0 10px;
+        color: gray;
+        font-size: 1.1rem;
+        font-weight: lighter;
+    }
+
+    #toggle-container:checked ~ ul{
+        top: 50px;
+        left: 0;
+    }
+
+    /* Header container */
     #header-container {
         height: 100vh;
         padding: 20px 60px;
