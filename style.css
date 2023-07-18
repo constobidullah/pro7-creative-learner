@@ -10,60 +10,73 @@ body {
     position: relative;
 }
 
-nav {
-    padding: 0 40px;
-    background-color: rgb(244, 247, 250);
+#navbar-container {
+    background-color: white;
     height: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
     position: sticky;
     top: 0;
 }
 
-#checkbox-input {
+#navbar-container nav {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: gray;
+}
+
+#toggle-container {
     display: none;
 }
 
-#bars-item {
+#checkbox {
+    display: none;
+}
+
+#togglebar {
     font-size: 1.5rem;
     color: gray;
 
     display: none;
 }
 
+#navbar-name h2 {
+    color: #5445f5;
+}
 
-#header-link ul li {
+#navbar-link ul {
+    display: flex;
+    align-items: center;
+}
+
+#navbar-link ul li {
     list-style-type: none;
-    display: inline;
 }
 
-#header-title a {
-    text-decoration: none;
-    color: rgb(127, 127, 255);
-    font-size: 2rem;
-    font-weight: 800;
-}
-
-#header-link a {
+#navbar-link ul li a {
     text-decoration: none;
     padding: 0 10px;
-    color: rgb(133, 128, 128);
+    /* color: gray; */
+    font-size: 1.1rem;
+    font-weight: lighter;
 }
 
-#login-item a {
+#active {
+    color: #5445f5;
+}
+
+#login-register a {
     text-decoration: none;
     padding: 0 10px;
     color: gray;
+    font-size: 1.1rem;
+    font-weight: lighter;
 }
-
-/* Navbar style end here */
 
 /* header main page style start here */
 
-header {
-    height: 70vh;
+#header-container {
+    height: 85vh;
     padding: 20px 60px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -293,7 +306,7 @@ header {
 
 #contact-form-item {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     gap: 30px;
     margin-bottom: 30px;
     color: gray;
@@ -314,6 +327,8 @@ textarea {
     padding: 5px;
     border-radius: 3px;
     margin-bottom: 30px;
+    width: 100%;
+    height: 150px;
 }
 
 textarea:focus {
@@ -522,19 +537,19 @@ footer {
         grid-template-columns: 1fr;
         gap: 30px;
     }
-    
+
     #plan-container .plan-item {
         text-align: center;
         background-color: #e8ebf8;
         padding: 10px 30px 20px;
         border-radius: 5px;
     }
-    
+
     .plan-item p {
         line-height: 40px;
         color: gray;
     }
-    
+
     .plan-money i {
         padding: 15px;
         /* font-size: 2rem; */
@@ -543,25 +558,25 @@ footer {
         border-radius: 10px 10px 0 10px;
         margin-bottom: 10px;
     }
-    
+
     .plan-money h2 {
         font-size: 1.5rem;
         margin-bottom: 10px;
     }
-    
+
     .plan-money h1 {
         font-size: 2rem;
     }
-    
+
     .plan-money h1 span {
         font-size: 1rem;
     }
-    
+
     .plan-money p {
         font-weight: bold;
         color: gray;
     }
-    
+
     .plan-benifit a {
         text-decoration: none;
         border: 2px solid #5a4fdc;
@@ -576,32 +591,32 @@ footer {
         grid-template-columns: 1fr;
         gap: 30px;
     }
-    
+
     .letest-image img {
         width: 100%;
         border-radius: 3px;
     }
-    
+
     .admin-and-calender {
         display: flex;
         justify-content: space-between;
         margin-bottom: 30px;
     }
-    
+
     .calender {
         display: flex;
         gap: 20px;
     }
-    
+
     .admin {
         display: flex;
         gap: 20px;
     }
-    
+
     .letest-text h1 {
         line-height: 60px;
     }
-    
+
     .learn-more-btn {
         margin-top: 20px;
         display: flex;
@@ -609,14 +624,14 @@ footer {
         gap: 20px;
         color: #5a4fdc;
     }
-    
+
     .learn-more-btn a {
         text-decoration: none;
     }
 
     #contact-us {
         margin: 10px 5px;
-    
+
         display: grid;
         grid-template-columns: 1fr;
         gap: 50px;
@@ -632,7 +647,7 @@ footer {
         margin-bottom: 30px;
         color: gray;
     }
-    
+
     #contact-form-item input {
         padding: 10px 15px;
         border: 1px solid gray;
@@ -640,11 +655,11 @@ footer {
         width: 100%;
         transition: outline 1s;
     }
-    
+
     #contact-form-item input:focus {
         outline: 2px solid #5a4fdc;
     }
-    
+
     textarea {
         padding: 5px;
         border-radius: 3px;
@@ -652,18 +667,18 @@ footer {
         height: 150px;
         width: 100%;
     }
-    
+
     textarea:focus {
         outline: 1px solid #5a4fdc;
     }
-    
+
     #send-message-btn {
         background-color: #5a4fdc;
         padding: 5px 10px;
         border-radius: 3px;
         color: white;
     }
-    
+
     #send-message-btn input {
         background-color: transparent;
         color: white;
@@ -678,7 +693,7 @@ footer {
         line-height: 30px;
         color: gray;
     }
-    
+
     .contact-info i {
         font-size: 1.2rem;
     }
@@ -697,21 +712,21 @@ footer {
         color: #5445f5;
         margin-bottom: 10px;
     }
-    
+
     #footer-social-icon {
         margin: 20px 0;
     }
-    
+
     #footer-social-icon i {
         font-size: 1.3rem;
         padding: 0 10px;
     }
-    
+
     .footer-link h4 {
         color: white;
         margin-bottom: 20px;
     }
-    
+
     .footer-link a {
         display: block;
         text-decoration: none;
