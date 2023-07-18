@@ -412,7 +412,7 @@ footer {
         overflow-x: hidden;
     }
 
-    header {
+    #header-container {
         height: 100vh;
         padding: 20px 60px;
         display: grid;
