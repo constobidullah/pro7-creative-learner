@@ -10,68 +10,76 @@ body {
     position: relative;
 }
 
-#navbar-container {
-    background-color: white;
+nav {
+    padding: 0 20px;
+    background-color: #fff;
     height: 50px;
-    position: sticky;
-    top: 0;
-}
-
-#navbar-container nav {
-    padding: 10px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: gray;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 5px 0 #ffffff, 5px 0 0 #f8f7f7;
 }
 
-#toggle-container {
+#logo-text a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #5445f5;
+    font-weight: lighter;
+}
+
+#check {
     display: none;
 }
 
-#checkbox {
-    display: none;
-}
-
-#togglebar {
+#toggle {
     font-size: 1.5rem;
     color: gray;
+    cursor: pointer;
 
     display: none;
 }
 
-#navbar-name h2 {
-    color: #5445f5;
-}
-
-#navbar-link ul {
+nav ul {
     display: flex;
-    align-items: center;
+    justify-content: space-around;
 }
 
-#navbar-link ul li {
+nav ul li {
     list-style-type: none;
 }
 
-#navbar-link ul li a {
-    text-decoration: none;
-    padding: 0 10px;
-    /* color: gray; */
-    font-size: 1.1rem;
-    font-weight: lighter;
-}
-
-#active {
-    color: #5445f5;
-}
-
-#login-register a {
+nav ul li a {
     text-decoration: none;
     padding: 0 10px;
     color: gray;
-    font-size: 1.1rem;
-    font-weight: lighter;
+    font-weight: 300;
 }
+
+nav ul li a:hover {
+    color: #5a4fdc;
+}
+
+.active {
+    color: #7f73fd;
+}
+
+#account-container a{
+    text-decoration: none;
+    padding: 0 10px;
+    color: gray;
+    font-weight: 300;
+}
+
+#account-container a:nth-child(1){
+    background-color: #c1bbf5;
+    color: #fff;
+    font-weight: 900;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
 
 /* header main page style start here */
 
@@ -412,89 +420,6 @@ footer {
         overflow-x: hidden;
     }
 
-    #navbar-container {
-        background-color: white;
-        height: 50px;
-        position: sticky;
-        top: 0;
-    }
-
-    #navbar-container nav {
-        padding: 10px 20px;
-        display: flex;
-        align-items: center;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        color: gray;
-    }
-
-    #toggle-container {
-        display: block;
-    }
-
-    #checkbox {
-        display: none;
-    }
-
-    #togglebar {
-        font-size: 1.5rem;
-        color: gray;
-        display: block;
-    }
-
-    #navbar-name h2 {
-        color: #5445f5;
-    }
-
-    #navbar-link {
-        width: 100%;
-        height: 100vh;
-        background-color: #fbfbff;
-        position: absolute;
-        top: 50px;
-        left: 100%;
-    }
-
-    #navbar-link ul {
-        display: block;
-        text-align: center;
-        padding-top: 100px;
-    }
-
-    #navbar-link ul li {
-        list-style-type: none;
-    }
-
-    #navbar-link ul li a {
-        text-decoration: none;
-        padding: 0 10px;
-        display: block;
-        /* color: gray; */
-        font-size: 1.5rem;
-        font-weight: lighter;
-        line-height: 50px;
-    }
-
-    #active {
-        color: #5445f5;
-    }
-
-    #login-register{
-        display: none;
-    }
-
-    #login-register a {
-        text-decoration: none;
-        padding: 0 10px;
-        color: gray;
-        font-size: 1.1rem;
-        font-weight: lighter;
-    }
-
-    #toggle-container:checked ~ ul{
-        top: 50px;
-        left: 0;
-    }
 
     /* Header container */
     #header-container {
