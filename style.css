@@ -435,7 +435,7 @@ footer {
 
     #logo-text a {
         text-decoration: none;
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         color: #5445f5;
         font-weight: lighter;
     }
@@ -498,9 +498,9 @@ footer {
     #account-container a:nth-child(1) {
         background-color: #c1bbf5;
         color: #fff;
-        font-weight: 900;
-        padding: 5px 10px;
-        border-radius: 10px;
+        font-weight: 300;
+        padding: 5px;
+        border-radius: 5px;
     }
 
     #check:checked~ul {
