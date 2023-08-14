@@ -343,6 +343,15 @@ textarea:focus {
     outline: 1px solid #5a4fdc;
 }
 
+#send-message-btn{
+    background-color: #5445f5;
+    display: inline;
+    justify-content: space-between;
+}
+
+input[type="submit"]{
+}
+
 
 .contact-info {
     display: flex;
