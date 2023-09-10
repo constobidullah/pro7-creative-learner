@@ -343,15 +343,19 @@ textarea:focus {
     outline: 1px solid #5a4fdc;
 }
 
-#send-message-btn{
-    background-color: #5445f5;
-    display: inline;
-    justify-content: space-between;
+#send-message-btn {
+    background-color: #5a4fdc;
+    padding: 10px 20px;
+    border-radius: 3px;
+    color: white;
 }
 
-input[type="submit"]{
+#send-message-btn input {
+    background-color: transparent;
+    color: white;
+    border: 0;
+    font-weight: 900;
 }
-
 
 .contact-info {
     display: flex;
@@ -417,7 +421,7 @@ footer {
     }
 
     nav {
-        padding: 0 20px;
+        padding: 0 10px;
         background-color: #fff;
         height: auto;
         width: 100%;
@@ -507,7 +511,7 @@ footer {
     /* Header container */
     #header-container {
         height: 100vh;
-        padding: 20px 60px;
+        padding: 20px 10px;
         display: grid;
         grid-template-columns: 1fr;
         align-items: center;
@@ -552,6 +556,7 @@ footer {
         object-fit: contain;
         width: 100%;
         height: auto;
+        margin-bottom: 100px;
     }
 
     .awesome-feature {
