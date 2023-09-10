@@ -367,7 +367,7 @@ textarea:focus {
     background-color: #5445f5;
     padding: 8px;
     border-radius: 50%;
-    opacity: .5;
+    visibility: hidden;
 }
 
 .contact-info {
