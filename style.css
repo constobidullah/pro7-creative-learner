@@ -343,19 +343,7 @@ textarea:focus {
     outline: 1px solid #5a4fdc;
 }
 
-#send-message-btn {
-    background-color: #5a4fdc;
-    padding: 10px 20px;
-    border-radius: 3px;
-    color: white;
-}
 
-#send-message-btn input {
-    background-color: transparent;
-    color: white;
-    border: 0;
-    font-weight: 900;
-}
 
 .contact-info {
     display: flex;
