@@ -344,7 +344,7 @@ textarea:focus {
 }
 
 #send-message-btn{
-    width: 170px;
+    width: 180px;
     background-color: #7f73fd;
     display: flex;
     justify-content: space-between;
@@ -360,6 +360,14 @@ textarea:focus {
     color: #fff;
     font-size: 1.2rem;
     cursor: pointer;
+}
+
+#send-message-btn i{
+    color: #fff;
+    background-color: #5445f5;
+    padding: 8px;
+    border-radius: 50%;
+    visibility: hidden;
 }
 
 .contact-info {
