@@ -344,7 +344,7 @@ textarea:focus {
 }
 
 .send-message-btn {
-    width: 180px;
+    width: 148px;
     background-color: #7f73fd;
     display: flex;
     justify-content: space-between;
@@ -352,6 +352,7 @@ textarea:focus {
     padding: 5px 10px;
     border-radius: 3px;
     cursor: pointer;
+    transition: .5s;
 }
 
 .send-message-btn input {
@@ -368,6 +369,18 @@ textarea:focus {
     padding: 8px;
     border-radius: 50%;
     visibility: hidden;
+    opacity: 0;
+    transition: 1s;
+}
+
+.send-message-btn:hover {
+    width: 180px;
+}
+
+.send-message-btn:hover .fa-arrow-right {
+    visibility: visible;
+    opacity: 1;
+    transform: rotate(360deg);
 }
 
 .contact-info {
