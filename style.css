@@ -70,6 +70,10 @@ nav ul li a:hover {
     color: #7f73fd;
 }
 
+#account-container{
+    margin-left: 150px;
+}
+
 #account-container a {
     text-decoration: none;
     padding: 0 10px;
