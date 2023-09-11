@@ -108,14 +108,16 @@ nav ul li a:hover {
 #header-page-title h1 {
     font-size: 2.5rem;
     font-weight: bolder;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 40px;
 }
 
 
 #header-page-title p {
     font-size: 1.1rem;
     color: rgb(167, 161, 161);
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 #header-subscribe-form input {
