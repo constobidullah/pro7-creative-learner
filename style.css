@@ -135,6 +135,7 @@ nav ul li a:hover {
     color: white;
     font-weight: 600;
     border: none;
+    cursor: pointer;
 }
 
 #header-page-image img {
