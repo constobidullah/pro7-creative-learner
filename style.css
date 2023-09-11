@@ -155,11 +155,13 @@ nav ul li a:hover {
 #feature-text h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
 }
 
 #feature-text p {
     font-size: .9rem;
     color: gray;
+    font-family: 'Quicksand', sans-serif;
 }
 
 #creativity-features {
