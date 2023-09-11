@@ -70,7 +70,7 @@ nav ul li a:hover {
     color: #7f73fd;
 }
 
-#account-container{
+#account-container {
     margin-left: 150px;
 }
 
@@ -126,7 +126,7 @@ nav ul li a:hover {
     border: 0;
 }
 
-#header-subscribe-form input[type="email"]:focus{
+#header-subscribe-form input[type="email"]:focus {
     outline: 0;
 }
 
