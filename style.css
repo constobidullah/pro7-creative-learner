@@ -126,6 +126,10 @@ nav ul li a:hover {
     border: 0;
 }
 
+#header-subscribe-form input[type="email"]:focus{
+    outline: 0;
+}
+
 #header-subscribe-form input:nth-child(2) {
     background-color: rgb(115, 115, 243);
     color: white;
