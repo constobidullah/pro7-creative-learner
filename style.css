@@ -120,7 +120,7 @@ nav ul li a:hover {
 #header-subscribe-form input:nth-child(2) {
     background-color: rgb(115, 115, 243);
     color: white;
-    font-weight: 900;
+    font-weight: 600;
     border: none;
 }
 
