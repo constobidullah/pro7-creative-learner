@@ -55,6 +55,8 @@ nav ul li a {
     padding: 0 10px;
     color: gray;
     font-weight: 300;
+
+    transition: .5s;
 }
 
 nav ul li a:hover {
