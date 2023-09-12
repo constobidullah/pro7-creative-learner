@@ -43,7 +43,7 @@
     #header-container {
         text-align: center;
         height: auto;
-        padding: 30px 10px;
+        padding: 30px 5px;
         grid-template-columns: 1fr;
     }
 
@@ -57,6 +57,16 @@
     }
 
     /* Awesome features start */
+    .awesome-feature {
+        padding: 0 5px;
+    }
 
+    #feature-text h1 {
+        font-size: 2rem;
+    }
+
+    #feature-text p {
+        font-size: 1rem;
+    }
 
 }
