@@ -549,6 +549,12 @@ footer {
 #footer-social-icon a {
     padding: 8px;
     border-radius: 100%;
+    transition: .5s ease-out;
+}
+
+#footer-social-icon a:hover i{
+    transform: scale(1.3);
+    color: #fff;
 }
 
 #footer-social-icon i {
