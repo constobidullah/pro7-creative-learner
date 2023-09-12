@@ -82,6 +82,10 @@
     #creativity-features-text h3 {
         font-size: 1.3rem;
     }
+
+    #creativity-features-text p {
+        font-size: 1rem;
+    }
     
 
 }
