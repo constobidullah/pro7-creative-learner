@@ -205,7 +205,8 @@ nav ul li a:hover {
 
 #creativity-features-text h1 {
     font-size: xx-large;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    font-family: 'Lora', serif;
 }
 
 #creativity-features-text h3 {
