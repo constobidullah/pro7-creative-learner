@@ -492,7 +492,7 @@ textarea:focus {
     border-radius: 50%;
     visibility: hidden;
     opacity: 0;
-    transition: 1s;
+    transition: .5s;
 }
 
 .send-message-btn:hover {
