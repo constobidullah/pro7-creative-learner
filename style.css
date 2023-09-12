@@ -389,12 +389,13 @@ nav ul li a:hover {
     gap: 10px;
     color: #000;
     cursor: pointer;
-    transition: .3s;
+    transition: .1s;
 }
 
 .learn-more-btn a {
     text-decoration: none;
     color: #000;
+    transition: .3s;
 }
 
 .learn-more-btn i {
