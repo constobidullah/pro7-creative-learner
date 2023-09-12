@@ -528,14 +528,18 @@ footer {
     background-color: #212529;
     color: gray;
     padding: 30px 60px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    justify-content: space-between;
     gap: 20px;
 }
 
 #footer-name h2 {
-    color: #5445f5;
     margin-bottom: 10px;
+}
+
+#footer-name h2 a{
+    text-decoration: none;
+    color: #5445f5;
 }
 
 #footer-social-icon {
