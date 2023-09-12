@@ -376,6 +376,10 @@ nav ul li a:hover {
     font-family: 'Cormorant Garamond', serif;
 }
 
+.letest-text p{
+    font-family: 'Cormorant Garamond', serif;
+}
+
 .learn-more-btn {
     margin-top: 30px;
     display: flex;
