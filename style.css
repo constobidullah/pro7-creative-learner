@@ -248,6 +248,11 @@ nav ul li a:hover {
     color: #000;
 }
 
+#creativity-btn a:nth-child(2):hover{
+    box-shadow: inset 130px 0 0 0 #000;
+    color: #fff;
+}
+
 
 /* Choose your plan */
 
