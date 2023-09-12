@@ -35,7 +35,7 @@
         margin-left: 0;
     }
 
-    #check:checked~ul{
+    #check:checked~ul {
         left: 0;
     }
 
@@ -56,6 +56,7 @@
         font-size: 1rem;
     }
 
+    /* Awesome features start */
 
 
 }
