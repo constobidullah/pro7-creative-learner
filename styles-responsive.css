@@ -144,6 +144,13 @@
 
 
     /* Footer */
+
+    footer {
+        padding: 30px 35px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 30px;
+    }
     
 
 }
