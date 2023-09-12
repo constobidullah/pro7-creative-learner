@@ -537,7 +537,7 @@ footer {
     margin-bottom: 10px;
 }
 
-#footer-name h2 a{
+#footer-name h2 a {
     text-decoration: none;
     color: #5445f5;
 }
@@ -546,9 +546,14 @@ footer {
     margin: 20px 0;
 }
 
+#footer-social-icon a {
+    padding: 8px;
+    border-radius: 100%;
+}
+
 #footer-social-icon i {
-    font-size: 1.3rem;
-    padding: 0 10px;
+    color: #5445f5;
+    font-size: 1.2rem;
 }
 
 .footer-link h4 {
