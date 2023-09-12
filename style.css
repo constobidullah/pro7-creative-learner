@@ -361,13 +361,15 @@ nav ul li a:hover {
     margin-bottom: 15px;
 }
 
-.calender, .admin {
+.calender,
+.admin {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.calender i, .admin i{
+.calender i,
+.admin i {
     color: #b0a9ff;
 }
 
@@ -376,25 +378,27 @@ nav ul li a:hover {
     font-family: 'Cormorant Garamond', serif;
 }
 
-.letest-text p{
+.letest-text p {
     font-family: 'Cormorant Garamond', serif;
 }
 
 .learn-more-btn {
-    margin-top: 30px;
+    margin-top: 20px;
     display: flex;
     align-items: center;
-    gap: 20px;
-    color: #5a4fdc;
+    gap: 10px;
+    color: #000;
+    cursor: pointer;
+    transition: .3s;
 }
 
 .learn-more-btn a {
     text-decoration: none;
+    color: #000;
 }
 
 #contact-us {
     margin: 30px 70px 100px;
-
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
