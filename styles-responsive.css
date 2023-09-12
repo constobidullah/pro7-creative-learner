@@ -52,6 +52,9 @@
         line-height: normal;
     }
 
+    #header-page-title p {
+        font-size: 1rem;
+    }
 
 
 
