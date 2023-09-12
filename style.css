@@ -397,6 +397,23 @@ nav ul li a:hover {
     color: #000;
 }
 
+.learn-more-btn i {
+    transition: .5s;
+}
+
+.learn-more-btn:hover {
+    gap: 15px;
+    color: #7f73fd;
+}
+
+.learn-more-btn a:hover {
+    color: #7f73fd;
+}
+
+.learn-more-btn:hover i {
+    transform: rotate(360deg);
+}
+
 #contact-us {
     margin: 30px 70px 100px;
     display: grid;
