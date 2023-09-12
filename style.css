@@ -361,14 +361,14 @@ nav ul li a:hover {
     margin-bottom: 30px;
 }
 
-.calender {
+.calender, .admin {
     display: flex;
-    gap: 20px;
+    align-items: center;
+    gap: 10px;
 }
 
-.admin {
-    display: flex;
-    gap: 20px;
+.calender i, .admin i{
+    color: #b0a9ff;
 }
 
 .letest-text h1 {
