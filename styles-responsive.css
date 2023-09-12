@@ -95,7 +95,8 @@
     /* Choose your plan */
 
     #plan-container {
-        margin: 30px 5px 100px;
+        margin: 30px 0 100px;
+        padding: 0 5px;
         grid-template-columns: 1fr;
     }
     
