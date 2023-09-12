@@ -112,7 +112,7 @@
     .letest-image img {
         height: auto;
     }
-    
+
     /* Contact Us */
 
     #contact-us {
@@ -124,6 +124,22 @@
     #contact-form-item {
         flex-direction: column;
         gap: 20px;
+    }
+
+    /* New Class added for responsive file */
+    .contact-info-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .contact-info {
+        line-height: 45px;
+    }
+
+    .contact-info:nth-child(5) {
+        line-height: 20px;
     }
 
 
