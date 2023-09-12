@@ -426,13 +426,18 @@ nav ul li a:hover {
 
 #contact-form-item {
     display: flex;
-    /* justify-content: space-between; */
     gap: 10px;
     margin-bottom: 30px;
     color: gray;
 }
 
+#contact-form-item div {
+    width: 100%;
+}
+
 #contact-form-item input {
+    width: 100%;
+
     padding: 10px 15px;
     border: 1px solid gray;
     border-radius: 3px;
