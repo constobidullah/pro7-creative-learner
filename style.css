@@ -426,8 +426,8 @@ nav ul li a:hover {
 
 #contact-form-item {
     display: flex;
-    justify-content: space-between;
-    gap: 30px;
+    /* justify-content: space-between; */
+    gap: 10px;
     margin-bottom: 30px;
     color: gray;
 }
@@ -436,11 +436,13 @@ nav ul li a:hover {
     padding: 10px 15px;
     border: 1px solid gray;
     border-radius: 3px;
-    transition: outline 1s;
+    outline: 1px solid transparent;
+    outline-offset: 1px;
 }
 
 #contact-form-item input:focus {
-    outline: 2px solid #5a4fdc;
+    outline: 1px solid #9b92ff;
+    border: 1px solid #9b92ff;
 }
 
 textarea {
