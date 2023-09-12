@@ -552,7 +552,7 @@ footer {
     transition: .5s ease-out;
 }
 
-#footer-social-icon a:hover i{
+#footer-social-icon a:hover i {
     transform: scale(1.3);
     color: #fff;
 }
@@ -575,4 +575,5 @@ footer {
     text-decoration: none;
     line-height: 30px;
     color: rgb(156, 148, 148);
+    margin-left: 20px;
 }
