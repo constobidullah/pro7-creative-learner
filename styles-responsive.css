@@ -121,5 +121,10 @@
         grid-template-columns: 1fr;
     }
 
+    #contact-form-item {
+        flex-direction: column;
+        gap: 20px;
+    }
+
 
 }
