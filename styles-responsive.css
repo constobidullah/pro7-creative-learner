@@ -94,7 +94,10 @@
 
     /* Choose your plan */
 
-    
+    #plan-container {
+        margin: 30px 5px 100px;
+        grid-template-columns: 1fr;
+    }
     
 
 }
